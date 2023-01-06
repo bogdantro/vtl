@@ -1,0 +1,12 @@
+.cover {
+  width: 100%;
+  min-height: 580px;
+  max-height: 650px;
+  background: linear-gradient(to bottom right, #2fa2ff, #67baff);
+  position: relative;
+}
+.cover .content .cover-img {
+  position: absolute;
+  top: -80px;
+  opacity: 0.5;
+}/*# sourceMappingURL=base.css.map */

@@ -1,0 +1,17 @@
+$primaryColor: #2fa2ff;
+
+// Mobile
+.cover{
+    width: 100%;
+    min-height: 580px;
+    max-height: 650px;
+    background: linear-gradient(to bottom right, $primaryColor, #67baff);
+    position: relative;
+    .content{
+        .cover-img{
+            position: absolute;
+            top: -80px;
+            opacity: 0.5;
+        }
+    }
+}
